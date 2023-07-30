@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head lang="tr">
+        <meta charset="utf-8">
+        <title>Yiğit Doğan Kişisel Web Sitesi</title>
+        <meta name="description" content="Yiğit Doğan Kişisel Web Sitesi">
+        <meta name="keywords" content="yiğit, doğan, html, css, tenis, yazılım">
+        <link rel="stylesheet" href="">
+       
+        <style>
+*{
+margin: 0px;
+padding: 0px;
+}
+#sayfa{
+    width: 900px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 600px;
+    margin: auto;
+}
+#sayfa div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 450px;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+/* banner */
+#banner{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+}
+/* logo */
+#logo{
+    width: 100px;
+    border-width: 1px;
+    height: 100px;
+    position: relative;
+    left: 5px;
+    float: left;
+}
+/* sosyal medya */
+#sosyal{
+    width: 172px;
+    border-style: none;
+    border-width: 1px;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+#ikon{
+    float: right;
+}
+/* anamenü */
+#anamenu{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    background-color: skyblue;
+    margin: auto;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    border-color: blue;
+    background-color: white;
+    float: left;
+    margin-left: 80px;
+    padding: 5px;
+    position: relative;
+    top: 9px;  
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#anamenu ul a:link{
+    color: blue
+}
+#anamenu ul a:visited{
+    color: brown
+}
+#anamenu ul a:hover{
+    color: skyblue;
+    text-decoration: underline;
+    font-style: bolder;
+}
+#anamenu ul a:active{
+    color: white;
+}
+/* içerik ve yanmenü */
+#icerik{
+    width: 598px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+    background-image: url("media/BGBG.jpg");
+}
+#yanmenu{
+    width: 298px;
+    border-style: solid;
+    border-width: 1px;
+    height: 400px;
+    background-color: royalblue;
+    float: left;
+}
+.resim{
+    float: left;
+    width: 250px;
+    margin: 10px;
+}
+.metin{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    padding-top: 25px;
+}
+.baslik{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+#genelbaslik{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+/* altmenü */
+#altmenu{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    height: 43px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: skyblue;
+}    
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.kucukmetin{
+    font-size: 12px;
+}
+        </style>
+
+    </head>
+    <body>
+        <div id="sayfa">
+            <header id="banner">
+                <div id="logo">
+                    <a href="index.html"><img src="media/yigitdogan.png" alt="Yiğit Doğan" title="Yiğit Doğan" width="100px"></a>
+                </div>
+                <div>
+                    <p>YİĞİT DOĞAN</p>
+                </div>
+                <div id="sosyal">
+                    <a href="https://www.instagram.com/yigitdogan2k"><img id="icon" src="media/instagram-icon.png" height="40"></a>
+                    <a href="https://github.com/yigitdogann"><img id="icon" src="media/github-icon.png" height="40"></a>
+                    <a href="https://www.linkedin.com/in/yi%C4%9Fit-do%C4%9Fan-43a824245/"><img id="icon" src="media/linkedin-icon.png" height="40"></a>
+                    <a href="https://twitter.com/yigitdogan2k"><img id="icon" src="media/x-icon.png" height="40"></a>
+                    
+                </div>
+            </header>
+            <nav id="anamenu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="ben-kimim.html">Ben Kimim</a></li>
+                    <li><a href="egitim.html">Eğitim</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+            <article id="icerik">
+                <img class="resim" src="media/icerik-bg.jpg">
+                <h1 style="color: #2fc1f7;" id="genelbaslik">SELAM</h1>
+                <p class="metin"> Merhaba, ben Yiğit ve şuan bu websitesini sizlere kendimi tanıtmak için tasarlıyorum. <br> 
+                Yukarıdaki menü kısmından hakkımdaki bazı bilgileri öğrenebilirsiniz.</p>
+            </article>
+            <aside id="yanmenu">
+                <h1 class="baslik">Menü1</h1>
+                <p>asşdclsaiclasdsc
+                    a,isdclidscşa,cişsadbr <br>sadcklşdsacaişsdlcsaişcsa
+                    şsacldksaşclasşiclaşidclaisşdcla </p>
+                    <h1 class="baslik">Menü2</h1>
+                <p>asşdclsaiclasdsc
+                    a,isdclidscşa,cişsadbr <br>sadcklşdsacaişsdlcsaişcsa
+                    şsacldksaşclasşiclaşidclaisşdcla </p>
+                    <h1 class="baslik">Menü3</h1>
+                <p>asşdclsaiclasdsc
+                    a,isdclidscşa,cişsadbr <br>sadcklşdsacaişsdlcsaişcsa
+                    şsacldksaşclasşiclaşidclaisşdcla </p>
+            </aside>
+            <footer id="altmenu">
+                    <a href="index.html">Anasayfa</a> |
+                    <a href="ben-kimim.html">Ben Kimim</a> |
+                    <a href="egitim.html">Eğitim</a> |
+                    <a href="iletisim.html">İletişim</a>
+                    <br>
+                    <p class="kucukmetin">© Tüm hakları saklıdır.</p>
+            </footer>
+        </div>
+    </body>
+</html>

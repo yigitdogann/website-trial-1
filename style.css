@@ -1,0 +1,9 @@
+/* boşlukları sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("media/yigitdogan.png");
+}

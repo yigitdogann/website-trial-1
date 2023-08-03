@@ -73,7 +73,7 @@
         width: 100px;
         border-radius: 20px;
         text-align: center;
-        border-color: blue;
+        border-color: black;
         background-color: white;
         float: left;
         margin-left: 80px;
@@ -87,10 +87,10 @@
         font-weight: bold;
     }
     #anamenu ul a:link{
-        color: black
+        color: black;
     }
     #anamenu ul a:visited{
-        color: #EF3F37
+        color: black;
     }
     #anamenu ul a:hover{
         color: #FBAF41;

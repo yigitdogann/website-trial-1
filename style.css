@@ -38,7 +38,7 @@
         border-width: 1px;
         height: 100px;
         position: relative;
-        left: 5px;
+        left: 0px;
         float: left;
     }
     /* sosyal medya */
@@ -49,8 +49,8 @@
         height: 40px;
         float: right;
         position: relative;
-        top: 50px;
-        right: 10px;
+        top: 58px;
+        right: 2px;
     }
     #ikon{
         float: right;
@@ -59,7 +59,7 @@
     #anamenu{
         width: 898px;
         border-style: solid;
-        border-width: 1px;
+        border-width: 2px;
         height: 50px;
         background-color: #FBAF41;
         margin: auto;
@@ -108,7 +108,7 @@
     }
     #icerik{
         width: 598px;
-        border-style: solid;
+        border-style: none solid none none;
         border-width: 1px;
         min-height: 400px;
         float: left;
@@ -122,7 +122,7 @@
     }
     #yanmenu{
         width: 298px;
-        border-style: solid;
+        border-style: none;
         border-width: 1px;
         height: 400px;
         background-color: #262161;
@@ -154,7 +154,7 @@
     #altmenu{
         width: 898px;
         border-style: solid;
-        border-width: 1px;
+        border-width: 2px;
         height: 43px;
         float: left;
         text-align: center;

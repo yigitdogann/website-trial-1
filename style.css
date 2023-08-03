@@ -8,6 +8,7 @@
         border-width: 1px;
         min-height: 600px;
         margin: auto;
+        background-color: #262161;
     }
     #sayfa div p{
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,13 +20,16 @@
         top: 30px;
         left: 60px;
     }
+    .enust{
+        color: #FBAF41;
+    }
     /* banner */
     #banner{
         width: 898px;
         border-style: solid;
         border-width: 1px;
         height: 100px;
-        background-color: white;
+        background-color: #262161;
         margin: auto;
     }
     /* logo */
@@ -57,7 +61,7 @@
         border-style: solid;
         border-width: 1px;
         height: 50px;
-        background-color: skyblue;
+        background-color: #FBAF41;
         margin: auto;
     }
     #anamenu ul{
@@ -83,13 +87,13 @@
         font-weight: bold;
     }
     #anamenu ul a:link{
-        color: blue
+        color: black
     }
     #anamenu ul a:visited{
-        color: brown
+        color: #EF3F37
     }
     #anamenu ul a:hover{
-        color: skyblue;
+        color: #FBAF41;
         text-decoration: underline;
         font-style: bolder;
     }
@@ -100,15 +104,15 @@
     .yanicerik{
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
     }
     #icerik{
         width: 598px;
         border-style: solid;
         border-width: 1px;
         min-height: 400px;
-        background-color: white;
         float: left;
-        background-image: url("media/BGBG.jpg");
+        background-color: #262161;
         text-indent: 15px;
     }
     #iletisimmetin{
@@ -121,7 +125,7 @@
         border-style: solid;
         border-width: 1px;
         height: 400px;
-        background-color: royalblue;
+        background-color: #262161;
         float: left;
     }
     .resim{
@@ -133,13 +137,13 @@
     .metin{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 17px;
-        color: black;
+        color: white;
         padding-top: 25px;
     }
     .baslik{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 20px;
-        color: white;
+        color: #FBAF41;
     }
     #genelbaslik{
         text-align: center;
@@ -152,11 +156,10 @@
         border-style: solid;
         border-width: 1px;
         height: 43px;
-        background-color: white;
         float: left;
         text-align: center;
         color: black;
-        background-color: skyblue;
+        background-color: #FBAF41;
     }    
     #altmenu a{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
